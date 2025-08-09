@@ -1,5 +1,6 @@
 # PDGM-IMC: Physics & Data Co-Driven Generative Modeling for In-Memory Computing Non-Idealities
 
+
 ## 📖 Overview
 **PDGM-IMC** is the first **physics-data co-driven generative framework** for accurately characterizing non-idealities in **analog in-memory computing (IMC)** chips.  
 It integrates **device-physics priors** into a **Normalizing Flow**-based generative model, enabling the explicit modeling of:
@@ -8,6 +9,12 @@ It integrates **device-physics priors** into a **Normalizing Flow**-based genera
 - Die-to-die variations  
 
 Validated on a commercial 40nm eFlash-based IMC SoC, PDGM-IMC achieves up to **4.6× improvement** in modeling accuracy for the input circuit and IMC array, and **2.0× improvement** for the output circuit, significantly outperforming existing approaches.
+
+This work has been accepted by **The 2025 International Conference on Computer-Aided Design (ICCAD 2025)**.
+
+The dataset of the paper cannot be made publicly available at the moment due to involving the commercial secrets of our collaborating partners. We are working hard to release a de-identified dataset in our future work. We sincerely apologize for the inconvenience.
+
+![PDGM-IMC Framework Overview](fig/model_overview.png)
 
 ---
 
